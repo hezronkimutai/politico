@@ -16,6 +16,18 @@ header {
     font-size:30px;
     font-family: 'Courier New', Courier, monospace;
 }
+.header_content #right {
+position:absolute;
+top:0px;
+right:0px;
+}
+.header_content #right li{
+display:inline-block;
+
+}
+a {
+  color:red;
+}
 body{
   position : absolute;
   width : 100%;

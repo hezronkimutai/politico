@@ -1,0 +1,63 @@
+
+<!--Signup page-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Politico</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+    </head>
+    <body >
+       <header >
+          <nav class=header_content>
+              <ul id="left">
+                <li id="politico"><a href="../index.html"><img src="static/images/logo.jpeg" ><b >Politico</b></a></li>
+              </ul>
+            </nav>
+          </header>
+	        <div class="container">
+            <div id="container_center">
+              <form  method="POST" action="" id="form">
+              <div class="losi_form">
+                <ul id="header">
+                      <li ><h3>Signup</h3></li>
+                      <li class="messages"></li>
+                    </ul>
+                    <ul id="field_container">
+                       <li><input   type="text" placeholder="Enter Your Full Names" name="full_names" required></li>
+                      <li><input  type="email" placeholder="Example@gmail.com" name="email" required></li>
+                      <li><input   type="text" placeholder="Enter Username" name="username" required></li>
+                      <li><input   type="password" placeholder="Enter Password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain atleast one number and one uppercase and lowercase letter, and atleast 8 or more characters" required></li>
+                      <li><input   type="password" placeholder="Repeat Password" name="rpassword" required></li>
+              </ul><ul >
+                        <li  ><input type="checkbox" name="terms" value="terms" checked id="checkbox"><small>By submitting, you are Accepting our <a href="/terms" >terms</a></small></li>
+                        <li ><input type="submit" value="Submit" id="submit"></li>
+                        <li >Already have an accout?<a href="/login" >Login</a></li>
+                </ul>
+
+              </div>
+      </form>
+        </div>
+
+        <footer id="container_bottom" >
+            <div class="footer_content"><ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="terms.html">terms</a></li>
+                        <li>  <a>Facebook</a></li>
+                        <li> <a>Twitter</a></li>
+                        <li>   <a>LinkedIn</a></li>
+
+                    </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <script type="text/jscript" src="../static/js/main.js"></script>
+    </body>
+</html>

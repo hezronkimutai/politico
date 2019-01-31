@@ -23,17 +23,18 @@
 	        <div class="container">
             <div id="container_center">
               <form  method="POST" action="" id="form">
-              <div class="losi_form">
+              <div class="create_form">
                 <ul id="header">
-                      <li ><h3>Recover your password</h3></li>
-                      <li class="messages"></li>
+                      <li ><h3>Create political party</h3></li>
                     </ul>
                     <ul id="field_container">
-                      <li><input   type="email" placeholder=" Example@example.com" name="email" required></li>
-                    </ul>
-                    <ul>
+                       <li><input   type="text" placeholder=" Name of the political party" name="party_name" required></li>
+                      <li><input   type="text" placeholder=" Party leader" name="party_leader" required></li>
+                      <li><input   type="text" placeholder=" Party secretary general" name="party_secretary_general" required></li>
+                        <li><textarea  type="text" placeholder="Briefly describe the political party" name="political_party_description" rows="15" cols="105" required></textarea></li>
+              </ul><ul >
                         <li ><input type="submit" value="Submit" id="submit"></li>
-                    </ul>
+                </ul>
 
               </div>
       </form>
@@ -43,6 +44,7 @@
             <div class="footer_content"><ul>
                         <li><a href="about.html">About us</a></li>
                         <li><a href="terms.html">terms</a></li>
+
                     </ul>
             </div>
         </footer>

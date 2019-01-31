@@ -1,33 +1,54 @@
+/*Header style*/
 header {
-    position : fixed;
-    width : 100%;
-    height :60px;
-    top :0px;
-    left:0px;
-    background-color: rgb(2, 10, 26);
-
+  position : fixed;
+  width : 100%;
+  height :60px;
+  top :0px;
+  left:0px;
+  background-color: rgb(2, 10, 26);
 }
 .header_content   #left li b{
-
-    position : absolute;
-    top :10px;
-    left:60px;
-  /*  color:rgb(247, 237, 196);*/
-    font-size:30px;
-    font-family: 'Courier New', Courier, monospace;
+  position : absolute;
+  top :10px;
+  left:60px;
+  font-size:30px;
+  font-family: 'Courier New', Courier, monospace;
 }
 .header_content #right {
-position:absolute;
-top:0px;
-right:0px;
+  position:absolute;
+  top:0px;
+  right:0px;
 }
 .header_content #right li{
-display:inline-block;
+  display:inline-block;
 
 }
-a {
-  color:red;
+
+/*Footer style*/
+footer{
+  position : fixed;
+  width : 100%;
+  height :60px;
+  top :600px;
+  left:0px;
+  background-color: rgb(2, 10, 26);
+
 }
+.footer_content ul li{
+  position:relative;
+  left:5%;
+  display : inline-block;
+  padding:10px 15px 50px 55px ;
+  width:15%;
+  margin:10px;
+  color:rgb(247, 237, 196);
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900
+}
+
+
+/*Body styles*/
 body{
   position : absolute;
   width : 100%;
@@ -36,66 +57,99 @@ body{
   left:0px;
   height :60px;
   background-color: #DCDCDC;
-
-
 }
-ul{
-    list-style: none;
-}
-
+  /*Login and signup form*/
 .losi_form {
-width:40%;
- margin: 0% 0% 30% 30%;
- height:auto;
- opacity:1;
-
- font-size:15px;
- font-family: Arial, Helvetica, sans-serif;
- font-weight: 900;
+  width:40%;
+  margin: 0% 0% 30% 30%;
+  height:auto;
+  opacity:1;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
 }
 .losi_form ul li{
-    width:100%;
-height:auto;
-border:5px solid #DCDCDC;
-
-}
-.losi_form ul #textarea{
-
-
+  width:100%;
+  height:auto;
+  border:5px solid #DCDCDC;
 }
 .losi_form #header li {
-background-color:#DCDCDC;
-height:auto;
-
-
-
+  background-color:#DCDCDC;
+  height:auto;
 }
 .losi_form #field_container li input {
+  width:100%;
+  height:40px;
+}
+
+.losi_form ul li h3{
+  text-align: center;
+  color:rgb(2, 10, 26);
+  font-size: 30px;
+}
+
+
+/*Political office and party creation form*/
+.create_form {
+  width:70%;
+  margin: 0% 0% 15% 15%;
+  height:auto;
+  opacity:1;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.create_form ul li{
+  width:100%;
+  height:auto;
+  border:5px solid #DCDCDC;
+
+}
+.create_form ul #textarea{
+}
+.create_form #header li {
+  background-color:#DCDCDC;
+  height:auto;
+}
+.create_form #field_container li input {
   width:100%;
   height:40px;
 
 }
 
-.losi_form ul li h3{
+.create_form ul li h3{
   text-align: center;
-     color:rgb(2, 10, 26);
-     font-size: 30px;
+  color:rgb(2, 10, 26);
+  font-size: 30px;
+}
+
+.card_main {
+  width:70%;
+  margin: 0% 0% 15% 15%;
+  height:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+  list-style: none;
+}
+a {
+  color:red;
 }
 input [type=checkbox]{
-    width: 30px;
-    height:30px;
+  width: 30px;
+  height:30px;
 }
 #submit{
-    background-color: rgb(200, 213, 225);
-    position: relative;
-    width:100%;
-    height:100%;
-    font-size: 20px;
+  background-color: rgb(200, 213, 225);
+  position: relative;
+  width:100%;
+  height:100%;
+  font-size: 20px;
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
   color:  rgb(2, 10, 26);
   font-size: 20px;
-  text-align: center;/* Firefox */
+  text-align: center;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -108,27 +162,4 @@ input [type=checkbox]{
   color:  rgb(2, 10, 26);
   font-size: 20px;
   text-align: center;/* Firefox */
-}
-footer{
-  position : fixed;
-  width : 100%;
-  height :60px;
-  top :600px;
-  left:0px;
-  background-color: rgb(2, 10, 26);
-
-}
-.footer_content ul li{
-position:relative;
-left:5%;
-    display : inline-block;
-padding:10px 15px 10px 15px ;
-width:15%;
-margin:10px;
-color:rgb(247, 237, 196);
-font-size:15px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 900
-
-
 }

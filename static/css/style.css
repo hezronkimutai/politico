@@ -6,6 +6,7 @@ header {
   top :0px;
   left:0px;
   background-color: rgb(2, 10, 26);
+  z-index: 10;
 }
 .header_content   #left li b{
   position : absolute;
@@ -28,6 +29,10 @@ header {
 .header_content #right li a{
   display:inline-block;
   text-decoration: none;
+
+}
+.header_content #right li a:hover{
+color: #DCDCDC;
 
 }
 
@@ -74,8 +79,36 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
+.dashboard {
+  position: relative;
+  top:0px;
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color:  rgb(2, 10, 26);
+  color: #DCDCDC;
+}
+.dashboard section {
+
+  width:100%;
+}
+.dashboard section h3 , .dashboard section p , .dashboard section ul li{
+
+  text-align: center;
+    color:  #DCDCDC;
+    font-size: 30px;
+  margin: 40px 40px 0px 0px;
+}
+.dashboard section ul li a{
+
+  text-decoration: none;
+
+}
+.dashboard section ul li a:hover{
+  color:  #DCDCDC;
+}
 .index {
-  position: fixed;
+  position: relative;
   width:80%;
   margin: 0% 0% 10% 10%;
   height:80%;
@@ -86,19 +119,8 @@ body{
   width:60%;
   margin: 10% 10% 20% 20%;
 }
-.dashboard {
-  position: relative;
-  top:0px;
-  width:80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color:  rgb(2, 10, 26);
-  color: white;
-}
-.dashboard section {
 
-  width:60%;
-}
+
 .index ul li a{
   position: relative;
   display: block;
@@ -312,6 +334,7 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -325,6 +348,9 @@ img {vertical-align: middle;}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+}
+.terms:hover {
+  color: #DCDCDC;
 }
 
 /* Caption text */

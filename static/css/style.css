@@ -108,9 +108,10 @@ body{
   color:  #DCDCDC;
 }
 .index {
-  position: relative;
+  position: fixed;
+  top: 70px;
+  left: 10%;
   width:80%;
-  margin: 0% 0% 10% 10%;
   height:80%;
   background-color:  rgb(2, 10, 26);
 }

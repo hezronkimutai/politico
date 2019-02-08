@@ -32,7 +32,7 @@ header {
 
 }
 .header_content #right li a:hover{
-color: #DCDCDC;
+color:  	#F08080;
 
 }
 
@@ -105,8 +105,7 @@ body{
 
 }
 .dashboard section ul li a:hover{
-  color:  #DCDCDC;
-}
+  color:  	#F08080;
 .index {
   position: fixed;
   top: 70px;
@@ -129,7 +128,7 @@ body{
   margin: 50px;
 }
 .index ul li a:hover{
-  color:  #DCDCDC;;
+  color: #F08080;
 }
 
 .index ul li{
@@ -229,7 +228,7 @@ ul{
   list-style: none;
 }
 a {
-  color:red;
+  color:#DCDCDC;
 }
 input[type="radio"] {
     -ms-transform: scale(1.9);
@@ -272,18 +271,21 @@ input[type="radio"] {
   color:  rgb(2, 10, 26);
   font-size: 20px;
   text-align: center;
+  font-weight: bolder;
 }
 
 :-ms-input-placeholder {
   color:  rgb(2, 10, 26);
   font-size: 20px;
   text-align: center;
+  font-weight: bolder;
 }
 
 ::-ms-input-placeholder {
   color:  rgb(2, 10, 26);
   font-size: 20px;
   text-align: center;
+  font-weight: bolder;
 }
 #vote_here{
     position:relative;

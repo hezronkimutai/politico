@@ -11,7 +11,7 @@ header {
 .header_content   #left li b{
   position : absolute;
   top :10px;
-  left:60px;
+  left:10px;
   font-size:30px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -23,7 +23,7 @@ header {
 }
 .header_content #right li{
   display:inline-block;
-  padding-right: 50px;
+  padding-right: 30px;
 
 }
 .header_content #right li a{
@@ -32,7 +32,7 @@ header {
 
 }
 .header_content #right li a:hover{
-color:  	#F08080;
+color:#DCDCDC;
 
 }
 
@@ -62,56 +62,42 @@ footer{
 
 /*Body styles*/
 body{
-  position : absolute;
-  width : 100%;
-  height :0px;
+  position : fixed;
+  height :100%;
   top :60px;
   left:0px;
-  height :0px;
+  width :100%;
   background-color: #DCDCDC;
 }
   /*Login and signup form*/
 .losi_form {
-  width:60%;
-  margin: 0% 0% 20% 20%;
+  position: fixed;
+  width:50%;
+  margin: 0% 0% 25% 25%;
   height:auto;
   font-size:15px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
+.dashboard img{
+  width: 98.6%;
+  height: 100%;
+}
 .dashboard {
-  position: relative;
-  top:0px;
-  width:80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color:  rgb(2, 10, 26);
-  color: #DCDCDC;
+  width: 100%;
+  height: 100%;
 }
-.dashboard section {
 
-  width:100%;
-}
-.dashboard section h3 , .dashboard section p , .dashboard section ul li{
 
-  text-align: center;
-    color:  #DCDCDC;
-    font-size: 30px;
-  margin: 40px 40px 0px 0px;
-}
-.dashboard section ul li a{
 
-  text-decoration: none;
 
-}
-.dashboard section ul li a:hover{
-  color:  	#F08080;
 .index {
   position: fixed;
   top: 70px;
   left: 10%;
   width:80%;
   height:80%;
+  border-radius: 50px;
   background-color:  rgb(2, 10, 26);
 }
 .index ul {
@@ -128,7 +114,7 @@ body{
   margin: 50px;
 }
 .index ul li a:hover{
-  color: #F08080;
+  color:#DCDCDC;
 }
 
 .index ul li{
@@ -157,28 +143,29 @@ body{
 .losi_form ul li{
   width:100%;
   height:auto;
-  border:5px solid #DCDCDC;
+  border:3px solid #DCDCDC;
 }
 .losi_form #header li {
-  background-color:#DCDCDC;
+  background-color: rgb(2, 10, 26);
   height:auto;
+  
 }
 .losi_form #field_container li input {
   width:100%;
-  height:40px;
+  height:30px;
 }
 
 .losi_form ul li h3{
   text-align: center;
-  color:rgb(2, 10, 26);
+  color:#DCDCDC;
   font-size: 30px;
 }
 
 
 /*Political office and party creation form*/
 .create_form {
-  width:70%;
-  margin: 0% 0% 15% 15%;
+  width:50%;
+  margin: 0% 0% 25% 25%;
   height:auto;
   opacity:1;
   font-size:15px;
@@ -192,9 +179,10 @@ body{
 
 }
 .create_form ul li textarea{
+  border-radius: 18px;
 }
 .create_form #header li {
-  background-color:#DCDCDC;
+  background-color:rgb(2, 10, 26);
   height:auto;
 }
 .create_form #field_container li input {
@@ -205,7 +193,8 @@ body{
 
 .create_form ul li h3{
   text-align: center;
-  color:rgb(2, 10, 26);
+  
+  color:#DCDCDC;
   font-size: 30px;
 }
 
@@ -228,8 +217,10 @@ ul{
   list-style: none;
 }
 a {
-  color:#DCDCDC;
+  color: rgb(250, 7, 7);
+  text-decoration: none;
 }
+
 input[type="radio"] {
     -ms-transform: scale(1.9);
     -webkit-transform: scale(1.9);
@@ -241,7 +232,7 @@ input[type="radio"] {
     color:  rgb(2, 10, 26);
 }
 .fileupload:hover {
-    color:  red;
+    color:  #F08080;
 }
 
 
@@ -257,6 +248,7 @@ input[type="radio"] {
     right: 0;
     text-align: right;
     top: 0;
+    border-radius: 18px;
 }
 #submit{
   background-color:rgb(2, 10, 26);
@@ -424,3 +416,20 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+@media (min-width: 480px) and (max-width: 960px) {
+  .header_content #right {
+    position:absolute;
+  width:100%;
+    top:60px;
+    right:0px;
+  }}
+  @media (min-width: 100px) and (max-width: 720px) {
+    .header_content #right li{
+      display:block;
+    
+    }.header_content #right {
+      position:absolute;
+    width:100%;
+      top:60px;
+      right:0px;
+    }}
